@@ -1,0 +1,32 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CzxR1lHC.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-B7n6jAhv.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-WhOLaIgU.css"
+    ]
+  },
+  "resources/vendor/fonts/tabler/tabler-icons.eot": {
+    "file": "assets/tabler-icons-Cc5WT5Ka.eot",
+    "src": "resources/vendor/fonts/tabler/tabler-icons.eot"
+  },
+  "resources/vendor/fonts/tabler/tabler-icons.ttf": {
+    "file": "assets/tabler-icons-DTMf72wu.ttf",
+    "src": "resources/vendor/fonts/tabler/tabler-icons.ttf"
+  },
+  "resources/vendor/fonts/tabler/tabler-icons.woff": {
+    "file": "assets/tabler-icons-pTglZNOv.woff",
+    "src": "resources/vendor/fonts/tabler/tabler-icons.woff"
+  },
+  "resources/vendor/fonts/tabler/tabler-icons.woff2": {
+    "file": "assets/tabler-icons-C1kIx3_Z.woff2",
+    "src": "resources/vendor/fonts/tabler/tabler-icons.woff2"
+  }
+}

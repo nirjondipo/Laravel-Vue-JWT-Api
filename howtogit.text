@@ -1,0 +1,24 @@
+1.you can commit them using the following command:
+
+git commit -m "Update chagne"
+
+Push the Changes: To push the changes to the GitHub repository, use the git push command:
+
+git push origin main
+
+
+
+
+Here's the complete process if you need to commit and then push:
+
+Stage the Changes (if not already staged):
+
+git add package-lock.json package.json
+
+
+Here's an example of the commands you would run in the terminal:
+
+cd C:\Users\GBE\Desktop\laraavel-installer\Dalance-Backend
+git add package-lock.json package.json
+git commit -m "Update package files"
+git push origin main
