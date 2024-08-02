@@ -12,8 +12,9 @@ import Sidebar from './components/Sidebar.vue';
 import { getAuthStatus, refreshToken } from './auth'; // Import refreshToken
 
 // Create a new axios instance with default settings
+// Need to add VITE_APP_URL=http://127.0.0.1:8000/ in .env files
 const axiosInstance = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: import.meta.env.VITE_APP_URL || process.env.APP_URL,
   headers: {
     'Content-Type': 'application/json'
   }
